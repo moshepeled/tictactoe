@@ -1,0 +1,11 @@
+div{
+    border: solid 1px black;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Lato',sans-serif;
+    font-weight: bold;
+    color: #092c4d;
+    height: 100px;
+    width: 100px;
+  }
+  

@@ -1,0 +1,33 @@
+.nospace {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  
+  
+  button {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 50px;
+    font-size: 20px;
+    display: block;
+  }
+
+  .big {
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+  }
+
+  .small {
+    font-size: 30px;
+    font-style: normal;
+  }
+
+  .message {
+    font-size: 60px;
+    font-style: italic;
+    font-weight: bold;
+    color: crimson;
+    text-align: center;
+  }
