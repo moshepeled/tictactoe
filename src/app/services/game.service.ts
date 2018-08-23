@@ -106,20 +106,4 @@ export class GameService {
     this.steps += 1;
   }
 
-  chkboard() {
-    this.boardGame = [];
-    this.boardGame.push(new Cell(0, 0, 'X'));
-    this.boardGame.push(new Cell(0, 1, 'O'));
-    this.boardGame.push(new Cell(0, 2, 'O'));
-    this.boardGame.push(new Cell(1, 0, 'O'));
-    this.boardGame.push(new Cell(1, 1, 'O'));
-    this.boardGame.push(new Cell(1, 2, 'X'));
-    this.boardGame.push(new Cell(2, 0, 'X'));
-    this.boardGame.push(new Cell(2, 1, 'O'));
-    this.boardGame.push(new Cell(2, 2, 'X'));
-
-    // console.log(this.isThereWinner('X'));
-    // console.log(this.isThereWinner('O'));
-  }
-
 }
